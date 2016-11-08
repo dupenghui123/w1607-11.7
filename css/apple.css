@@ -1,0 +1,286 @@
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+div,body,li,ul{
+    padding: 0;
+    margin: 0;
+
+
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
+.adv-wrapper{
+    width: 100%;
+    background: #444;
+    height: 40px;
+}
+.adv-wrapper-text{
+    display: block;
+    line-height: 40px;
+    overflow: hidden;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    text-align: right;
+    max-width: 976px;
+    margin: 0 auto;
+    color: #a8a8aa;
+    font-size: 12px;
+}
+.ac-gn-content .ac-gn-list {
+    cursor: default;
+    margin: 0 -40px;
+    width: auto;
+    height: 44px;
+    text-align: justify;
+    /*-ms-text-justify: distribute-all-lines;*/
+    /*text-justify: distribute-all-lines;*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.nav{
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 48px;
+    max-height: 44px;
+    background: #333;
+    background: rgba(0,0,0,0.8);
+    font-size: 18px;
+}
+.ac-gn-content{
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 0 22px;
+    position: relative;
+    z-index: 2;
+}
+.ac-gn-content .ac-gn-list li{
+    float: left;
+}
+.ac-gn-content .apple{
+    background-image: url(../img/image_small.svg);
+    background-size: 21px 48px;
+}
+.ac-gn-content .ac-gn-header .ac-gn-apple {
+    position: absolute;
+    width: 48px;
+    top: 0;
+    left: 50%;
+    margin-left: -24px;
+    text-align: center;
+    z-index: 1;
+}
+.ac-gn-content .ac-gn-link:hover {
+    opacity: .65;
+}
+.ac-gn-content .ac-gn-link-apple {
+    background-repeat: no-repeat;
+    background-size: 20px 44px;
+    background-image: url(../img/image_large.svg);
+    background-position: center center;
+    width: 20px;
+}
+.banner1 h1{
+    width: 100%;
+    margin: 0px 560px;
+    position: relative;
+    color: white;
+    font-size: 42px;
+}
+.banner1 .content{
+ width: 100%;
+    margin: 0px 550px;
+    position: relative;
+    color: white;
+    font-size: 42px;
+
+}
+.banner-box{
+    width: 100%;
+    height:588px;
+    overflow: hidden;
+    color: white;
+}
+.banner-box .row{
+    width:100%;
+    height: 100%;
+    background: #ffffff!important;
+    position: relative;
+}
+.banner-box  .row  div{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.banner-box  .row >div  a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin:auto;
+}
+.banner-box  .row a span{
+    display: inline-block;
+    position: absolute;
+}
+
+.container-fluid:nth-child(3){
+    height: 200px;
+}
+.container-fluid:nth-child(3) .row >div{
+    height:200px;
+}
+.container-fluid:nth-child(3) .row:nth-child(1) >div >a{
+    width:100%;
+    box-sizing: border-box;
+    height:100%;
+    border-right: 2px solid #ffffff;
+    display: block;
+}
+.banner1 a{
+    background-image: url(../img/iphone_large.jpg);
+}
+    
+
+.promo{
+height: 200px;
+    display: block;
+}
+.gallery-container{
+    height: 300px;
+}
+.promo-nike-watch {
+    background-size: 360px 200px;
+    background-repeat: no-repeat;
+    background-image: url(../img/nike_watch_large.jpg);
+}
+.promo-airpods {
+    background-size: 360px 200px;
+    background-repeat: no-repeat;
+    background-image: url(../img/airpods_large.jpg);
+}
+.promo-iphone-upgrade {
+    background-size: 360px 200px;
+    background-repeat: no-repeat;
+    background-image: url(../img/iphone_upgrade_large.jpg);
+}
+.promo-accessibility {
+    background-size: 360px 200px;
+    background-repeat: no-repeat;
+    background-image: url(../img/accessibility_large.jpg);
+}
+
+
+
+/* 底部开始 */
+.link{
+    background: #f2f2f2;
+}
+.link .main-link .row{
+    width: 100%;
+    height: 100%;
+}
+/* 底部结束 */
+/* 底部开始 */
+.footer{
+    background: #f2f2f2;
+    overflow: hidden;
+}
+.footer ul li{
+    display: inline-block;
+    color: #999;
+    font-size: 10px;
+}
+.footer ul:nth-child(1) a{
+    color: #08c;
+}
+.footer ul:nth-child(1) a:hover{
+    text-decoration: underline;
+    color: #333;
+}
+.footer ul:last-child a{
+    color: #999;
+}
+.footer ul:last-child a:hover{
+    text-decoration: underline;
+}
+
+
+
+/* pc */
+/* 底部开始 */
+[class*='col-'] {
+  display: block;
+  float: left;
+}
+.ac-container {
+    margin: 0 auto;
+    padding: 0 22px;
+    max-width: 980px;
+}
+.ac-gf{
+    /*width: 100%;*/
+    position: relative;
+    z-index: 1;
+    min-height: 2px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    pointer-events: none;
+    margin-left: 100px;
+}
+.ac-gf h3{
+font-size: 20px;
+}
+.ac-gf a{
+    font-size: 10px;
+}
+.footer .max-footer{
+    max-width: 980px;
+    height: auto;
+    padding: 20px 0 24px;
+    margin: 0 auto;
+}
+.footer .max-footer ul:nth-child(1){
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+    border-bottom: 1px solid #e3e3e3;
+}
+.footer .max-footer ul:nth-child(2) li:nth-child(1)~li{
+    padding: 0 8px;
+    color: #d6d6d6;
+}
+.footer .max-footer ul:nth-child(2) li:nth-child(1)~li a{
+    color: #666;
+}
+.footer .max-footer ul:nth-child(2) li:nth-child(1)~li:last-child a{
+    color: #666;
+    display: inline-block;
+    height: 16px;
+    vertical-align: middle;
+    background: url("../images/china.png") no-repeat;
+    padding-left: 21px;
+}
+.footer .max-footer ul:nth-child(2) li:nth-child(1)~li a:hover{
+    text-decoration: underline;
+    color: #333;
+}
+.footer .max-footer ul:nth-child(2) li:last-child{
+    float: right;
+    vertical-align: middle;
+}
+/* pc底部结束 */
+
+
